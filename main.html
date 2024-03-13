@@ -3,11 +3,169 @@
 <html>
 
 <head>
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="styles.css">
+	<style>
+		hr {
+  margin: 0;
+  margin-bottom:10px;
+  padding: 0;
+}
+    .headings {
+      color: #3b99e0;
+		/* margin-top: 20px; /* Adjust as needed */
+    margin-bottom: 20px */
+		
+    }
+
+    .summary {
+      border-top: 1px solid #5ea4f3;
+      background-color: #f7fbff;
+      padding: 0px 20px;
+      color:black;
+     
+    }
+
+    .product {
+      border: 1px solid #ddd;
+      margin-bottom: 20px;
+      padding: 20px;
+    }
+
+    .block-heading {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .summary button {
+      background-color: #3b99e0;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+    }
+  </style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<div class="container">
+    <h1 class="block-heading headings">Shopping Cart</h1>
+		
+
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="product">
+          
+          <div class="row mb-4">
+            <div class="col-md-3">
+              <img src="https://img.freepik.com/free-vector/realistic-front-view-smartphone-mockup-mobile-iphone-purple-frame-with-blank-white-display-vector_90220-959.jpg?size=338&ext=jpg&ga=GA1.1.1319243779.1710201600&semt=sph" alt="Product 1" class="img-fluid">
+              
+			</div>
+            <div class="col-md-3">
+             <h5>I am very sorry</h3>
+				<div>
+					<p class="m-0 p-0">Display: 5 inches</p>
+					<p class="m-0 p-0">RAM: 4GB</p>
+					<p class="m-0 p-0">Memory: 32GB</p>
+				</div>
+            </div>
+            <div class="col-md-3">
+           <label for="quantity" class="input-group-prepend" >Quantity:</label>
+			<div class="input-group">
+		
+          <input type="number" class="form-control text-center" id="quantity" value="1" >
+			</div>
+			</div>
+			  <div class="col-md-3 d-flex  align-items-center">
+				  <p class="font-weight-bold ">$120</p>
+			  </div>
+          </div>
+
+			   <div class="row mb-4">
+            <div class="col-md-3">
+              <img src="https://img.freepik.com/free-vector/realistic-front-view-smartphone-mockup-mobile-iphone-purple-frame-with-blank-white-display-vector_90220-959.jpg?size=338&ext=jpg&ga=GA1.1.1319243779.1710201600&semt=sph" alt="Product 1" class="img-fluid">
+              
+			</div>
+            <div class="col-md-3">
+             <h5>I am very sorry</h3>
+				<div>
+					<p class="m-0 p-0">Display: 5 inches</p>
+					<p class="m-0 p-0">RAM: 4GB</p>
+					<p class="m-0 p-0">Memory: 32GB</p>
+				</div>
+            </div>
+            <div class="col-md-3">
+           <label for="quantity" class="input-group-prepend" >Quantity:</label>
+			<div class="input-group">
+		
+          <input type="number" class="form-control text-center" id="quantity" value="1" >
+			</div>
+			</div>
+			  <div class="col-md-3 d-flex  align-items-center">
+				  <p class="font-weight-bold ">$120</p>
+			  </div>
+          </div>
+
+			   <div class="row mb-4">
+            <div class="col-md-3">
+              <img src="https://img.freepik.com/free-vector/realistic-front-view-smartphone-mockup-mobile-iphone-purple-frame-with-blank-white-display-vector_90220-959.jpg?size=338&ext=jpg&ga=GA1.1.1319243779.1710201600&semt=sph" alt="Product 1" class="img-fluid">
+              
+			</div>
+            <div class="col-md-3">
+             <h5>I am very sorry</h3>
+				<div>
+					<p class="m-0 p-0">Display: 5 inches</p>
+					<p class="m-0 p-0">RAM: 4GB</p>
+					<p class="m-0 p-0">Memory: 32GB</p>
+				</div>
+            </div>
+            <div class="col-md-3">
+           <label for="quantity" class="input-group-prepend" >Quantity:</label>
+			<div class="input-group">
+		
+          <input type="number" class="form-control text-center" id="quantity" value="1" >
+			</div>
+			</div>
+			  <div class="col-md-3 d-flex  align-items-center">
+				  <p class="font-weight-bold ">$120</p>
+			  </div>
+          </div>
+
+		 	
+
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="summary">
+          <h3 class="headings text-center mt-4 mb-4 text-dark">Summary</h3>
+		 <div class="clearfix">
+      <p class="float-left">Subtotal</p>
+      <p class="float-right">$360</p>
+			 
+    </div>
+    <hr>
+    <div class="clearfix">
+      <p class="float-left">Discount</p>
+      <p class="float-right">$0</p>
+    </div>
+    <hr>
+    <div class="clearfix">
+      <p class="float-left">Shipping</p>
+      <p class="float-right">$0</p>
+    </div>
+    <hr>
+    <div class="clearfix">
+      <p class="float-left">Total</p>
+      <p class="float-right">$360</p>
+    </div>
+          <button class="btn btn-block btn-primary">checkout</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Add more product blocks as needed -->
+  </div>
     <script type="text/javascript" src="./script.js">
 </script>
 
